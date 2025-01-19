@@ -4,8 +4,10 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "FreeLink",
     description: "抱歉，目前您只能给双向联系人发送消息 双向机器人解决方案",
+    lastUpdated: true,
     sitemap: {
         hostname: 'https://blog.freelinktg.top',
+        lastmodDateOnly: false
     },
     head: [
         ['meta', {name: 'author', content: 'jizhuawugu'}],
