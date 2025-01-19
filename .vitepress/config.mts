@@ -31,8 +31,15 @@ export default defineConfig({
                             {
                                 text: '🤖 什么是双向机器人？', link: '/zh/brief/bot_introduce'
                             },
-                            {text: '🤔 为什么需要双向机器人', link: '/zh/document'},
-                            {text: '➕ 快速新增机器人', link: '/introduction'},
+                            {
+                                text: '❗️ 我无法发送消息', link: '/zh/brief/unable_send_message'
+                            },
+                            {
+                                text: '🤔 怎么解决', link: '/zh/brief/solve'
+                            },
+                            {
+                                text: '➕ 创建机器人', link: '/zh/brief/create_bot'
+                            },
                         ],
                     },
                     {
