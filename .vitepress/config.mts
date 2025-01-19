@@ -47,21 +47,34 @@ export default defineConfig({
                         items: [
                             {
                                 text: '用户管理', items: [
-                                    {text: '编辑备注', link: '/getting-started'},
-                                    {text: '编辑说明', link: '/getting-started'},
-                                    {text: '显示备注', link: '/getting-started'},
-                                    {text: '封禁', link: '/getting-started'},
-                                    {text: '删除聊天记录', link: '/getting-started'}
+                                    {text: '👤 封禁/解禁', link: '/zh/user/ban_or_release'},
+                                    {text: '👤 编辑备注', link: '/zh/user/edit_notes'},
+                                    {text: '👤 编辑说明', link: '/zh/user/edit_describe'},
+                                    {text: '👤 显示备注', link: '/zh/user/display_notes'},
+                                    {text: '👤 删除聊天记录', link: '/zh/user/delete_chat_history'}
                                 ]
                             },
-                            {text: 'TG会员管理', link: '/getting-started'},
-                            {text: '键盘管理', link: '/introduction'},
-                            {text: '命令管理', link: '/getting-started'},
-                            {text: '欢迎词', link: '/introduction/'},
-                            {text: '广播', link: '/getting-started'},
-                            {text: '自动回复', link: '/getting-started'},
                             {
-                                text: '付费聊天', link: '/getting-started', items: [
+                                text: 'TG会员管理',
+                                items: [
+                                    {
+                                        text: '👑 设置会员价格', link: '/zh/pass'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '键盘管理', items: [
+                                    {
+                                        text: ''
+                                    }
+                                ]
+                            },
+                            {text: '命令管理'},
+                            {text: '欢迎词'},
+                            {text: '广播'},
+                            {text: '自动回复'},
+                            {
+                                text: '付费聊天', items: [
                                     {text: '口令支付', link: '/getting-started'},
                                     {text: 'USDT支付', link: '/getting-started'}
                                 ]
@@ -69,9 +82,6 @@ export default defineConfig({
 
                         ],
                     }
-                ],
-                socialLinks: [
-                    {icon: 'telegram', link: 'https://t.me/xzkb_bot'}
                 ]
             }
         },
@@ -95,14 +105,18 @@ export default defineConfig({
                         ]
                     }
                 ],
-                socialLinks: [
-                    {icon: 'telegram', link: 'https://t.me/xzkb_bot'}
-                ]
+
             }
         }
     },
     themeConfig: {
-        logo: '/logo.png'
+        logo: '/logo.png',
+        search: {
+            provider: 'local',
+        },
+        socialLinks: [
+            {icon: 'telegram', link: 'https://t.me/xzkb_bot'}
+        ]
     },
     srcDir: 'docs',
 })

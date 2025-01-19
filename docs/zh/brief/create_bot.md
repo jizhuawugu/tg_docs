@@ -16,9 +16,11 @@
 
 6. **点击“新增机器人”**
 ![img_2.png](/brief/add_bot.png)
-7. **发送您的 API 令牌**
-![img.png](img.png)
+7. **向机器人发送您的 API 令牌**
+
 8. **✅ 新增机器人成功**：代表您的机器人已成功创建。
+![img.png](/brief/add_success.png)
+
 ## 视频教程
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajYJvW0ah8g" frameborder="0" allowfullscreen></iframe>
