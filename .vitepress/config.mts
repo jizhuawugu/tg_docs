@@ -1,5 +1,4 @@
 import {defineConfig} from 'vitepress'
-import ViteSitemap from 'vite-plugin-sitemap';
 
 
 export default defineConfig({
@@ -13,19 +12,6 @@ export default defineConfig({
         ['meta', {name: 'keywords', content: '双向机器人'}],
         ['link', {rel: 'icon', href: '/logo.png'}]
     ],
-    // Vite 配置
-    vite: {
-        plugins: [
-            ViteSitemap({
-                // sitemap 配置
-                hostname: 'https://blog.freelinktg.to', // 替换为你的网站 URL
-                exclude: ['/404.html'], // 排除不需要生成的页面
-                // 其他配置选项
-                changefreq: 'weekly', // 页面更新频率
-                priority: 0.7, // 优先级
-            })
-        ]
-    },
     locales: {
         root: {
             label: '简体中文',
