@@ -10,7 +10,7 @@ export default defineConfig({
         lastmodDateOnly: false
     },
     head: [
-        ['meta', {name: 'author', content: 'jizhuawugu'}],
+        ['meta', {name: 'author', content: 'freelink'}],
         ['meta', {name: 'keywords', content: '双向机器人'}],
         ['link', {rel: 'icon', href: '/logo.png'}]
     ],
