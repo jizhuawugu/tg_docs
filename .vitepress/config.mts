@@ -59,58 +59,77 @@ export default defineConfig({
                                 text: 'TG会员管理',
                                 items: [
                                     {
-                                        text: '👑 设置会员价格', link: '/zh/pass'
+                                        text: '👑 设置会员价格', link: '/zh/telegram_premium/set_telegram_premium'
                                     }
                                 ]
                             },
                             {
-                                text: '键盘管理', items: [
+                                text: '键盘管理', link: '/zh/keyboard/keyboard_management', items: [
                                     {
-                                        text: '⌨️ 键盘'
+                                        text: '⌨️ 键盘', link: '/zh/keyboard/keyboard'
                                     },
                                     {
-                                        text: '⌨️ 响应内容'
+                                        text: '⌨️ 响应内容', link: '/zh/keyboard/keyboard_content'
                                     },
                                     {
-                                        text: '⌨️ 响应按钮'
+                                        text: '⌨️ 响应按钮', link: '/zh/keyboard/keyboard_button'
                                     }
                                 ]
                             },
                             {
-                                text: '命令管理', items: [
+                                text: '命令管理', link: '/zh/command/command_management', items: [
                                     {
-                                        text: '💾 命令'
+                                        text: '💾 命令', link: '/zh/command/command'
                                     },
                                     {
-                                        text: '💾 响应内容'
+                                        text: '💾 响应内容', link: '/zh/command/command_content'
                                     },
                                     {
-                                        text: '💾 响应按钮'
+                                        text: '💾 响应按钮', link: '/zh/command/command_button'
                                     }
                                 ]
                             },
                             {
-                                text: '欢迎词', items: [
+                                text: '欢迎词', link: '/zh/bot_welcome/bot_welcome', items: [
                                     {
-                                        text: "👏 欢迎词"
+                                        text: "👏 启用/禁用", link: '/zh/bot_welcome/enable_or_disable'
                                     },
                                     {
-                                        text: "👏 欢迎词响应按钮"
+                                        text: "👏 编辑", link: '/zh/bot_welcome/edit'
+                                    },
+                                    {
+                                        text: "👏 新增按钮", link: '/zh/bot_welcome/add_button'
+                                    },
+                                    {
+                                        text: "👏 预览", link: '/zh/bot_welcome/preview'
                                     }
                                 ]
                             },
                             {
-                                text: '广播', items: [
+                                text: '广播', link: '/zh/bot_broadcast/bot_broadcast', items: [
                                     {
-                                        text: "📡 "
+                                        text: "📡 新增广播"
+                                    },
+                                    {
+                                        text: "📡 发送广播"
                                     }
                                 ]
                             },
-                            {text: '自动回复'},
+                            {
+                                text: '自动回复', link: '/zh/bot_auto_reply/bot_auto_reply', items: [
+                                    {
+                                        text: '💬 新增关键词'
+                                    },
+                                ]
+                            },
                             {
                                 text: '付费聊天', items: [
-                                    {text: '口令支付', link: '/getting-started'},
-                                    {text: 'USDT支付', link: '/getting-started'}
+                                    {text: '💰 启用/禁用'},
+                                    {text: '💰 订单'},
+                                    {text: '💰 编辑收款地址'},
+                                    {text: '💰 编辑付费金额'},
+                                    {text: '💰 口令支付/启用/禁用'},
+                                    {text: '💰 口令: x字符'},
                                 ]
                             },
 
@@ -119,29 +138,29 @@ export default defineConfig({
                 ]
             }
         },
-        en: {
-            label: 'English',
-            lang: 'en',
-            link: '/en/',
-            title: 'FreeLink English Documentation',
-            description: 'FreeLink English Documentation',
-            themeConfig: {
-                nav: [
-                    {text: 'Home', link: '/en/'},
-                    {text: 'Examples', link: '/en/markdown-examples'}
-                ],
-                sidebar: [
-                    {
-                        text: 'Guide',
-                        items: [
-                            {text: 'Introduction', link: '/introduction'},
-                            {text: 'Getting Started', link: '/getting-started'}
-                        ]
-                    }
-                ],
-
-            }
-        }
+        // en: {
+        //     label: 'English',
+        //     lang: 'en',
+        //     link: '/en/',
+        //     title: 'FreeLink English Documentation',
+        //     description: 'FreeLink English Documentation',
+        //     themeConfig: {
+        //         nav: [
+        //             {text: 'Home', link: '/en/'},
+        //             {text: 'Examples', link: '/en/markdown-examples'}
+        //         ],
+        //         sidebar: [
+        //             {
+        //                 text: 'Guide',
+        //                 items: [
+        //                     {text: 'Introduction', link: '/introduction'},
+        //                     {text: 'Getting Started', link: '/getting-started'}
+        //                 ]
+        //             }
+        //         ],
+        //
+        //     }
+        // }
     },
     themeConfig: {
         logo: '/logo.png',
