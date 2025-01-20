@@ -64,7 +64,7 @@ export default defineConfig({
                                 ]
                             },
                             {
-                                text: 'TG会员管理',
+                                text: 'TG会员管理',link: '/zh/telegram_premium/telegram_premium',
                                 items: [
                                     {
                                         text: '👑 设置会员价格', link: '/zh/telegram_premium/set_telegram_premium'
@@ -131,7 +131,7 @@ export default defineConfig({
                                 ]
                             },
                             {
-                                text: '付费聊天', link: '/zh/paid/paid_chat', items: [
+                                text: '付费聊天(专业版专享)', link: '/zh/paid/paid_chat', items: [
                                     {text: '💰 启用/禁用', link: '/zh/paid/enable_or_disable'},
                                     {text: '💰 订单', link: '/zh/paid/order'},
                                     {text: '💰 编辑收款地址', link: '/zh/paid/edit_payment_address'},
