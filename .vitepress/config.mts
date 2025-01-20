@@ -3,7 +3,7 @@ import {defineConfig} from 'vitepress'
 
 export default defineConfig({
     title: "FreeLink",
-    description: "抱歉，目前您只能给双向联系人发送消息 双向机器人解决方案",
+    description: "Telegram 双向机器人 私聊机器人",
     lastUpdated: true,
     sitemap: {
         hostname: 'https://blog.freelinktg.top',
@@ -19,7 +19,7 @@ export default defineConfig({
             label: '简体中文',
             lang: 'zh',
             title: 'FreeLink',
-            description: 'FreeLink 中文文档描述',
+            description: 'Telegram 双向机器人 私聊机器人',
             themeConfig: {
                 nav: [
                     {text: '文档', link: '/zh/brief/bot_introduce'},
