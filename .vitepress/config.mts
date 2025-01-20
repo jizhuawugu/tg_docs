@@ -43,7 +43,15 @@ export default defineConfig({
                         ],
                     },
                     {
-                        text: '功能介绍',
+                        text: '双向机器人',
+                        items: [
+                            {
+                                text: '🗣️ 怎么回复用户', link: '/zh/private_chat_bot/reply'
+                            },
+                        ]
+                    },
+                    {
+                        text: 'Bot 功能介绍',
                         items: [
                             {
                                 text: '用户管理', link: '/zh/user/user_management',
@@ -123,13 +131,13 @@ export default defineConfig({
                                 ]
                             },
                             {
-                                text: '付费聊天', items: [
-                                    {text: '💰 启用/禁用'},
-                                    {text: '💰 订单'},
-                                    {text: '💰 编辑收款地址'},
-                                    {text: '💰 编辑付费金额'},
-                                    {text: '💰 口令支付/启用/禁用'},
-                                    {text: '💰 口令: x字符'},
+                                text: '付费聊天', link: '/zh/paid/paid_chat', items: [
+                                    {text: '💰 启用/禁用', link: '/zh/paid/enable_or_disable'},
+                                    {text: '💰 订单', link: '/zh/paid/order'},
+                                    {text: '💰 编辑收款地址', link: '/zh/paid/edit_payment_address'},
+                                    {text: '💰 编辑付费金额', link: '/zh/paid/edit_amount'},
+                                    {text: '💰 口令支付/启用/禁用', link: '/zh/paid/chat_command_enable_or_disable'},
+                                    {text: '💰 口令: x字符', link: '/zh/paid/chat_command_str_num'},
                                 ]
                             },
 
