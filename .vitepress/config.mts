@@ -64,7 +64,7 @@ export default defineConfig({
                                 ]
                             },
                             {
-                                text: 'TG会员管理',link: '/zh/telegram_premium/telegram_premium',
+                                text: 'TG会员管理', link: '/zh/telegram_premium/telegram_premium',
                                 items: [
                                     {
                                         text: '👑 设置会员价格', link: '/zh/telegram_premium/set_telegram_premium'
@@ -177,7 +177,11 @@ export default defineConfig({
         },
         socialLinks: [
             {icon: 'telegram', link: 'https://t.me/xzkb_bot'}
-        ]
+        ],
+        footer: {
+            message: 'Unlimited communication, efficient interaction anytime, anywhere!',
+            copyright: `Copyright © ${new Date().getFullYear()}.FreeLink.All rights reserved.`
+        }
     },
     srcDir: 'docs',
 })
