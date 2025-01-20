@@ -46,7 +46,8 @@ export default defineConfig({
                         text: '功能介绍',
                         items: [
                             {
-                                text: '用户管理', items: [
+                                text: '用户管理', link: '/zh/user/user_management',
+                                items: [
                                     {text: '👤 封禁/解禁', link: '/zh/user/ban_or_release'},
                                     {text: '👤 编辑备注', link: '/zh/user/edit_notes'},
                                     {text: '👤 编辑说明', link: '/zh/user/edit_describe'},
@@ -65,13 +66,46 @@ export default defineConfig({
                             {
                                 text: '键盘管理', items: [
                                     {
-                                        text: ''
+                                        text: '⌨️ 键盘'
+                                    },
+                                    {
+                                        text: '⌨️ 响应内容'
+                                    },
+                                    {
+                                        text: '⌨️ 响应按钮'
                                     }
                                 ]
                             },
-                            {text: '命令管理'},
-                            {text: '欢迎词'},
-                            {text: '广播'},
+                            {
+                                text: '命令管理', items: [
+                                    {
+                                        text: '💾 命令'
+                                    },
+                                    {
+                                        text: '💾 响应内容'
+                                    },
+                                    {
+                                        text: '💾 响应按钮'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '欢迎词', items: [
+                                    {
+                                        text: "👏 欢迎词"
+                                    },
+                                    {
+                                        text: "👏 欢迎词响应按钮"
+                                    }
+                                ]
+                            },
+                            {
+                                text: '广播', items: [
+                                    {
+                                        text: "📡 "
+                                    }
+                                ]
+                            },
                             {text: '自动回复'},
                             {
                                 text: '付费聊天', items: [
