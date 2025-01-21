@@ -52,7 +52,7 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: 'Bot 功能介绍',
+                        text: 'FreeLink 功能介绍',
                         items: [
                             {
                                 text: '用户管理', link: '/zh/user/user_management',
