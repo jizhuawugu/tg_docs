@@ -142,7 +142,11 @@ export default defineConfig({
                                     {text: '💰 口令: x字符', link: '/zh/paid/chat_command_str_num'},
                                 ]
                             },
-
+                            {
+                                text: '设置', link: '/zh/settings/settings', items: [
+                                    {text: '⚙️ 聊天模式', link: '/zh/settings/chat_model'},
+                                ]
+                            },
                         ],
                     }
                 ]
