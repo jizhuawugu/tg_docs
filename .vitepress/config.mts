@@ -107,30 +107,30 @@ export default defineConfig({
                                         text: "👏 启用/禁用", link: '/zh/bot_welcome/enable_or_disable'
                                     },
                                     {
-                                        text: "👏 编辑", link: '/zh/bot_welcome/edit'
+                                        text: "👏 编辑欢迎词", link: '/zh/bot_welcome/edit'
                                     },
                                     {
                                         text: "👏 新增按钮", link: '/zh/bot_welcome/add_button'
-                                    },
-                                    {
-                                        text: "👏 预览", link: '/zh/bot_welcome/preview'
                                     }
                                 ]
                             },
                             {
                                 text: '广播', link: '/zh/bot_broadcast/bot_broadcast', items: [
                                     {
-                                        text: "📡 新增广播"
-                                    },
-                                    {
-                                        text: "📡 发送广播"
+                                        text: "📡 发送广播", link: '/zh/bot_broadcast/send_bot_broadcast'
                                     }
                                 ]
                             },
                             {
                                 text: '自动回复', link: '/zh/bot_auto_reply/bot_auto_reply', items: [
                                     {
-                                        text: '💬 新增关键词'
+                                        text: '💬 匹配方式', link: '/zh/bot_auto_reply/matching_method'
+                                    },
+                                    {
+                                        text: '💬 回复词组', link: '/zh/bot_auto_reply/reply_group'
+                                    },
+                                    {
+                                        text: '💬 使用范围', link: '/zh/bot_auto_reply/use_range'
                                     },
                                 ]
                             },
