@@ -49,6 +49,9 @@ export default defineConfig({
                             {
                                 text: '🗣️ 怎么回复用户', link: '/zh/private_chat_bot/reply'
                             },
+                            // {
+                            //     text: '🗣️ 测试', link: '/zh/api-examples'
+                            // },
                         ]
                     },
                     {
@@ -81,7 +84,7 @@ export default defineConfig({
                                         text: '⌨️ 响应内容', link: '/zh/keyboard/keyboard_content'
                                     },
                                     {
-                                        text: '⌨️ 响应按钮', link: '/zh/keyboard/keyboard_button'
+                                        text: '⌨️ 按钮管理', link: '/zh/keyboard/keyboard_button'
                                     }
                                 ]
                             },
@@ -94,7 +97,7 @@ export default defineConfig({
                                         text: '💾 响应内容', link: '/zh/command/command_content'
                                     },
                                     {
-                                        text: '💾 响应按钮', link: '/zh/command/command_button'
+                                        text: '💾 按钮管理', link: '/zh/command/command_button'
                                     }
                                 ]
                             },
@@ -182,7 +185,11 @@ export default defineConfig({
         footer: {
             message: 'Unlimited communication, efficient interaction anytime, anywhere!',
             copyright: `Copyright © ${new Date().getFullYear()}.FreeLink.All rights reserved.`
-        }
+        },
+        // carbonAds: {
+        //     code: 'your-carbon-code',
+        //     placement: 'your-carbon-placement'
+        // }
     },
     srcDir: 'docs',
 })

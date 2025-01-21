@@ -6,7 +6,7 @@
 - 封禁成功
 <img src="/user/ban_success.png" width="300" height="300" style="border-radius: 8px; padding: 5px;" />
 
-# **解禁**
+## **解禁**
 
 - 点击 🔑 解禁
 <img src="/user/user_detail.png" width="300" height="300" style="border-radius: 8px; padding: 5px;" />

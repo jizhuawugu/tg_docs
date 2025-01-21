@@ -10,3 +10,9 @@
     <img src="/command/none_command.png" width="200" height="200" style="border: 2px solid #F44336; border-radius: 8px; padding: 5px;" />
   </div>
 </div>
+
+## 新增命令
+- 点击 "➕ 新增命令" 按钮
+  输入命令（仅支持文本,并且无需输入 "/"）
+
+![img.png](/command/add.png)
