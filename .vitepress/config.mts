@@ -12,6 +12,8 @@ export default defineConfig({
     head: [
         ['meta', {name: 'author', content: 'freelink'}],
         ['meta', {name: 'keywords', content: '双向机器人'}],
+        ['meta', {property: 'og:title', content: 'FreeLink 双向机器人'}],
+        ['meta', {property: 'og:image', content: '/logo.png'}],
         ['meta', {name: 'google-site-verification', content: 'vMVG3iHWfafSxvz-oTbnSziwkZ1w4CJVRhNetmCZtgI'}],
         ['link', {rel: 'icon', href: '/logo.png'}]
     ],
