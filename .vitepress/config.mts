@@ -127,20 +127,18 @@ export default defineConfig({
                                         text: '💬 匹配方式', link: '/zh/bot_auto_reply/matching_method'
                                     },
                                     {
-                                        text: '💬 回复词组', link: '/zh/bot_auto_reply/reply_group'
+                                        text: '💬 使用范围', link: '/zh/bot_auto_reply/use_range'
                                     },
                                     {
-                                        text: '💬 使用范围', link: '/zh/bot_auto_reply/use_range'
+                                        text: '💬 回复词组', link: '/zh/bot_auto_reply/reply_group'
                                     },
                                 ]
                             },
                             {
                                 text: '付费聊天(专业版专享)', link: '/zh/paid/paid_chat', items: [
-                                    {text: '💰 启用/禁用', link: '/zh/paid/enable_or_disable'},
                                     {text: '💰 订单', link: '/zh/paid/order'},
                                     {text: '💰 编辑收款地址', link: '/zh/paid/edit_payment_address'},
                                     {text: '💰 编辑付费金额', link: '/zh/paid/edit_amount'},
-                                    {text: '💰 口令支付/启用/禁用', link: '/zh/paid/chat_command_enable_or_disable'},
                                     {text: '💰 口令: x字符', link: '/zh/paid/chat_command_str_num'},
                                 ]
                             },
