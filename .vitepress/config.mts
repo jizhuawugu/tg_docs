@@ -12,6 +12,7 @@ export default defineConfig({
     head: [
         ['meta', {name: 'author', content: 'freelink'}],
         ['meta', {name: 'keywords', content: '双向机器人'}],
+        ['meta', {name: 'google-site-verification', content: 'vMVG3iHWfafSxvz-oTbnSziwkZ1w4CJVRhNetmCZtgI'}],
         ['link', {rel: 'icon', href: '/logo.png'}]
     ],
     locales: {
