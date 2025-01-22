@@ -11,7 +11,7 @@ hero:
     src: /Background.png
   actions:
     - theme: brand
-      text: 📄 文档
+      text: 📄 双向机器人文档
       link: /zh/brief/bot_introduce.html
     - theme: alt
       text: 👉🏻 双向机器人

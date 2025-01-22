@@ -1,0 +1,17 @@
+# 国内 - 搜群机器人
+
+- **AI索引**： [@SuperAi123Bot](https://t.me/SuperAi123Bot)
+- **【友盟】导航机器人·群组搜索**： [@dh2345_bot](https://t.me/dh2345_bot)
+- **达摩索引**： [@damosuoyinbot](https://t.me/damosuoyinbot)
+- **中文索引**： [@TeleTop123Bot](https://t.me/TeleTop123Bot)
+- **Ton中文索引**： [@TonCnBot](https://t.me/TonCnBot)
+- **超级搜索**： [@chaoji8bot](https://t.me/chaoji8bot)
+- **SOSO搜搜**： [@SoSoSearchBot](https://t.me/SoSoSearchBot)
+- **TGG综合搜索**： [@ChineseMainSearchBot](https://t.me/ChineseMainSearchBot)
+- **搜一搜机器人**： [@SouYiSouBot](https://t.me/SouYiSouBot)
+- **🐴 神马搜索 🔍**： [@SM1234Bot](https://t.me/SM1234Bot)
+- **极搜🔍中文搜索**： [@jisou](https://t.me/jisou)
+- **极搜 @JiSo**： [@jiso](https://t.me/jiso)
+- **搜罗 搜索机器人**： [@souluoBot](https://t.me/souluoBot)
+- **电报索引**： [@dianbaosuoyin_bot](https://t.me/dianbaosuoyin_bot)
+- **🔍 狗狗索引 - 搜索神器**： [@DogeIndexBot](https://t.me/DogeIndexBot)

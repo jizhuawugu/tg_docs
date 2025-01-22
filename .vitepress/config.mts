@@ -28,7 +28,8 @@ export default defineConfig({
             description: 'Telegram 双向机器人 私聊机器人',
             themeConfig: {
                 nav: [
-                    {text: '文档', link: '/zh/brief/bot_introduce'},
+                    {text: '双向机器人文档', link: '/zh/brief/bot_introduce'},
+                    {text: 'Telegram 实用教程', link: '/zh/tg_tutorial'},
                 ],
                 sidebar: {
                     '/zh': [
@@ -170,6 +171,54 @@ export default defineConfig({
                             ]
                         }
                     ],
+                    '/zh/tg_tutorial/': [
+                        {
+                            text: "📘 Telegram 入门指南", link: '/zh/tg_tutorial/index'
+                        },
+                        {
+                            text: "语言与客户端相关", items: [
+                                {
+                                    text: "🌍 简体中文语言包安装", link: '/zh/tg_tutorial/chinese'
+                                },
+                                {
+                                    text: "🌍 官方客户端下载", link: '/zh/tg_tutorial/tg_client'
+                                }
+                            ]
+                        },
+                        {
+                            text: "账户管理与安全", items: [
+                                {
+                                    text: "🔐 找回被注销的账号", link: '/zh/tg_tutorial/retrieve_user'
+                                },
+                                {
+                                    text: "🔐 主动注销账户操作", link: '/zh/tg_tutorial/active_logout'
+                                },
+                                {
+                                    text: "🔐 开启两步验证保护账户", link: '/zh/tg_tutorial/two_step_verification'
+                                }
+                            ]
+                        },
+                        {
+                            text: "使用技巧与功能", items: [
+                                {
+                                    text: "⚙️ 频道评论功能开启教程", link: '/zh/tg_tutorial/channel_comments'
+                                },
+                                {
+                                    text: "⚙️ 解除 iOS 用户账号限制", link: '/zh/tg_tutorial/ios_limitation'
+                                }
+                            ]
+                        },
+                        {
+                            text: "搜索引擎", items: [
+                                {
+                                    text: "🔍 国内", link: '/zh/tg_tutorial/search_engines_cn'
+                                },
+                                {
+                                    text: "🔍 国外", link: '/zh/tg_tutorial/search_engines_abroad'
+                                }
+                            ]
+                        }
+                    ]
                 }
             }
         },
