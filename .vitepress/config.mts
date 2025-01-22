@@ -10,15 +10,26 @@ export default defineConfig({
         lastmodDateOnly: false
     },
     head: [
+        // 基本 SEO 信息
         ['meta', {name: 'author', content: 'freelink'}],
-        ['meta', {name: 'keywords', content: '双向机器人'}],
+        ['meta', {name: 'keywords', content: 'Telegram 双向机器人,FreeLink, 双向机器人,私聊机器人,回声机器人'}],
+        ['meta', {name: 'description', content: 'Telegram 双向机器人 TG双向机器人'}],
+        // Open Graph 信息
         ['meta', {property: 'og:title', content: 'FreeLink 双向机器人'}],
         ['meta', {property: 'og:description', content: '一个适合所有人的 Telegram 双向机器人'}],
         ['meta', {property: 'og:image', content: '/logo.png'}],
         ['meta', {property: 'og:url', content: 'http://blog.freelinktg.top/'}],
         ['meta', {property: 'og:type', content: 'website'}],
+        ['meta', {property: 'og:site_name', content: 'FreeLink'}],
+        // Twitter 信息（增强社交分享效果）
+        ['meta', { name: 'twitter:card', content: 'summary_large_image' }], // 使用大图片卡片样式
+        ['meta', { name: 'twitter:title', content: 'FreeLink 双向机器人' }],
+        ['meta', { name: 'twitter:description', content: 'FreeLink 双向机器人是一个适合所有人的 Telegram 双向机器人，支持高效、安全的消息交互体验。' }],
+        ['meta', { name: 'twitter:image', content: '/logo.pn' }],
+
         ['meta', {name: 'google-site-verification', content: 'vMVG3iHWfafSxvz-oTbnSziwkZ1w4CJVRhNetmCZtgI'}],
-        ['link', {rel: 'icon', href: '/logo.png'}]
+        ['link', {rel: 'icon', href: '/logo.png'}],
+        ['link', { rel: 'canonical', href: 'http://blog.freelinktg.top/' }]
     ],
     locales: {
         root: {
