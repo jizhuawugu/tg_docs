@@ -270,7 +270,8 @@ export default defineConfig({
             provider: 'local',
         },
         socialLinks: [
-            {icon: 'telegram', link: 'https://t.me/xzkb_bot'}
+            {icon: 'telegram', link: 'https://t.me/xzkb_bot'},
+            {icon: 'twitter', link: 'https://x.com/JFreeLink'}
         ],
         footer: {
             message: 'Unlimited communication, efficient interaction anytime, anywhere!',
