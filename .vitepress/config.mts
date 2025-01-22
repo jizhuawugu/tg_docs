@@ -155,12 +155,15 @@ export default defineConfig({
                     ],
                     '/zh/card/': [
                         {
-                            text: "❓什么是U卡", link: '/zh/card/what_is_usdt'
+                            text: "❗️ 特殊说明", link: '/zh/card/index'
+                        },
+                        {
+                            text: "❓ 什么是U卡", link: '/zh/card/what_is_usdt'
                         },
                         {
                             text: "U卡",
                             items: [
-                                {text: '💳 PokePay', link: '/zh/card/usdt_card/pokepay'},
+                                {text: '💳  PokePay', link: '/zh/card/usdt_card/pokepay'},
                             ]
                         }
                     ],
