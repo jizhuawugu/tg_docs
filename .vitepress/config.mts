@@ -13,7 +13,7 @@ export default defineConfig({
         ['meta', {name: 'author', content: 'freelink'}],
         ['meta', {name: 'keywords', content: '双向机器人'}],
         ['meta', {property: 'og:title', content: 'FreeLink 双向机器人'}],
-        ['meta', {property: 'og:description', content: '一款可以实现双向消息传递的机器人工具，让沟通更加高效。'}],
+        ['meta', {property: 'og:description', content: '一个适合所有人的 Telegram 双向机器人'}],
         ['meta', {property: 'og:image', content: '/logo.png'}],
         ['meta', {property: 'og:url', content: 'http://blog.freelinktg.top/'}],
         ['meta', {property: 'og:type', content: 'website'}],
