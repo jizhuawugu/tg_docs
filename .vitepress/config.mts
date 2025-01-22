@@ -28,8 +28,15 @@ export default defineConfig({
             description: 'Telegram 双向机器人 私聊机器人',
             themeConfig: {
                 nav: [
-                    {text: '双向机器人文档', link: '/zh/brief/bot_introduce'},
-                    {text: 'Telegram 实用教程', link: '/zh/tg_tutorial'},
+                    {
+                        text: 'U卡推荐', link: '/zh/card/'
+                    },
+                    {
+                        text: 'Telegram 实用教程', link: '/zh/tg_tutorial'
+                    },
+                    {
+                        text: '双向机器人文档', link: '/zh/brief/bot_introduce'
+                    },
                 ],
                 sidebar: {
                     '/zh': [
@@ -258,6 +265,8 @@ export default defineConfig({
             message: 'Unlimited communication, efficient interaction anytime, anywhere!',
             copyright: `Copyright © ${new Date().getFullYear()}.FreeLink.All rights reserved.`
         },
+        siteTitle: 'FreeLink'
+
         // carbonAds: {
         //     code: 'your-carbon-code',
         //     placement: 'your-carbon-placement'
