@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: 👉🏻 双向机器人
       link: https://t.me/xzkb_bot
+    - theme: alt
+      text: 👉🏻 U卡推荐
+      link: /zh/card/
 
 features:
   - title: 解决个人双向限制
