@@ -12,7 +12,7 @@ export default defineConfig({
     head: [
         // 基本 SEO 信息
         ['meta', {name: 'author', content: 'freelink'}],
-        ['meta', {name: 'keywords', content: 'Telegram 双向机器人,FreeLink, 双向机器人,私聊机器人,回声机器人'}],
+        ['meta', {name: 'keywords', content: 'Telegram 双向机器人,FreeLink, 双向机器人,私聊机器人,回声机器人,留言机器人'}],
         ['meta', {name: 'description', content: 'Telegram 双向机器人 TG双向机器人'}],
         // Open Graph 信息
         ['meta', {property: 'og:title', content: 'FreeLink 双向机器人'}],
