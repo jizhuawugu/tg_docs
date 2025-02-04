@@ -15,7 +15,7 @@ hero:
       link: /zh/brief/bot_introduce.html
     - theme: alt
       text: 👉🏻 双向机器人
-      link: https://t.me/xzkb_bot
+      link: https://t.me/xzkb_bot?start=s_blog
     - theme: alt
       text: 📢 频道
       link: https://t.me/free_botz

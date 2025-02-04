@@ -12,7 +12,7 @@
 
 ![img.png](/brief/api_token.png)
 
-5. **打开[@xzkb_bot](https://t.me/xzkb_bot)双向机器人，并点击“开始”** 
+5. **打开[@xzkb_bot](https://t.me/xzkb_bot?start=s_blog)双向机器人，并点击“开始”** 
 
 6. **点击“新增机器人”**
 ![img_2.png](/brief/add_bot.png)
