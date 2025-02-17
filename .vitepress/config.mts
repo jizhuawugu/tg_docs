@@ -25,7 +25,7 @@ export default defineConfig({
         ['meta', { name: 'twitter:card', content: 'summary_large_image' }], // 使用大图片卡片样式
         ['meta', { name: 'twitter:title', content: 'FreeLink 双向机器人' }],
         ['meta', { name: 'twitter:description', content: 'FreeLink 双向机器人是一个适合所有人的 Telegram 双向机器人，支持高效、安全的消息交互体验。' }],
-        ['meta', { name: 'twitter:image', content: '/logo.pn' }],
+        ['meta', { name: 'twitter:image', content: '/logo.png' }],
 
         ['meta', {name: 'google-site-verification', content: 'vMVG3iHWfafSxvz-oTbnSziwkZ1w4CJVRhNetmCZtgI'}],
         ['link', {rel: 'icon', href: '/logo.png'}],
