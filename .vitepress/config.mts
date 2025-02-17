@@ -18,7 +18,7 @@ export default defineConfig({
         ['meta', {property: 'og:title', content: 'FreeLink 双向机器人'}],
         ['meta', {property: 'og:description', content: '一个适合所有人的 Telegram 双向机器人'}],
         ['meta', {property: 'og:image', content: '/logo.png'}],
-        ['meta', {property: 'og:url', content: 'http://blog.freelinktg.top/'}],
+        ['meta', {property: 'og:url', content: 'https://blog.freelinktg.top'}],
         ['meta', {property: 'og:type', content: 'website'}],
         ['meta', {property: 'og:site_name', content: 'FreeLink'}],
         // Twitter 信息（增强社交分享效果）
@@ -29,7 +29,7 @@ export default defineConfig({
 
         ['meta', {name: 'google-site-verification', content: 'vMVG3iHWfafSxvz-oTbnSziwkZ1w4CJVRhNetmCZtgI'}],
         ['link', {rel: 'icon', href: '/logo.png'}],
-        ['link', { rel: 'canonical', href: 'http://blog.freelinktg.top/' }]
+        ['link', { rel: 'canonical', href: 'https://blog.freelinktg.top/' }]
     ],
     locales: {
         root: {
@@ -74,9 +74,6 @@ export default defineConfig({
                                 {
                                     text: '🗣️ 怎么回复用户', link: '/zh/private_chat_bot/reply'
                                 },
-                                // {
-                                //     text: '🗣️ 测试', link: '/zh/api-examples'
-                                // },
                             ]
                         },
                         {
@@ -240,29 +237,6 @@ export default defineConfig({
                 }
             }
         },
-        // en: {
-        //     label: 'English',
-        //     lang: 'en',
-        //     link: '/en/',
-        //     title: 'FreeLink English Documentation',
-        //     description: 'FreeLink English Documentation',
-        //     themeConfig: {
-        //         nav: [
-        //             {text: 'Home', link: '/en/'},
-        //             {text: 'Examples', link: '/en/markdown-examples'}
-        //         ],
-        //         sidebar: [
-        //             {
-        //                 text: 'Guide',
-        //                 items: [
-        //                     {text: 'Introduction', link: '/introduction'},
-        //                     {text: 'Getting Started', link: '/getting-started'}
-        //                 ]
-        //             }
-        //         ],
-        //
-        //     }
-        // }
     },
     themeConfig: {
         logo: '/logo.png',
@@ -278,11 +252,6 @@ export default defineConfig({
             copyright: `Copyright © ${new Date().getFullYear()}.FreeLink.All rights reserved.`
         },
         siteTitle: 'FreeLink'
-
-        // carbonAds: {
-        //     code: 'your-carbon-code',
-        //     placement: 'your-carbon-placement'
-        // }
     },
     srcDir: 'docs',
 })
