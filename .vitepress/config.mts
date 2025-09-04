@@ -2,8 +2,8 @@ import {defineConfig} from 'vitepress'
 
 
 export default defineConfig({
-    title: "FreeLink",
-    description: "Telegram 双向机器人 私聊机器人",
+    title: "FreeLink - 专业的Telegram双向机器人",
+    description: "FreeLink是一个功能强大的Telegram双向机器人，支持自动回复、广播、付费聊天、键盘按钮等功能，帮助用户高效管理Telegram群组和私聊。",
     lastUpdated: true,
     sitemap: {
         hostname: 'https://blog.freelinktg.top',
@@ -11,25 +11,37 @@ export default defineConfig({
     },
     head: [
         // 基本 SEO 信息
-        ['meta', {name: 'author', content: 'freelink'}],
-        ['meta', {name: 'keywords', content: 'Telegram 双向机器人,FreeLink, 双向机器人,私聊机器人,回声机器人,留言机器人'}],
-        ['meta', {name: 'description', content: 'Telegram 双向机器人 TG双向机器人'}],
+        ['meta', {name: 'author', content: 'FreeLink Team'}],
+        ['meta', {name: 'keywords', content: 'Telegram 双向机器人,FreeLink, 双向机器人,私聊机器人,回声机器人,留言机器人,Telegram Bot,聊天机器人,自动回复,广播功能'}],
+        ['meta', {name: 'description', content: 'FreeLink是一个功能强大的Telegram双向机器人，支持自动回复、广播、付费聊天、键盘按钮等功能，帮助用户高效管理Telegram群组和私聊。'}],
+        ['meta', {name: 'robots', content: 'index, follow'}],
+        ['meta', {name: 'googlebot', content: 'index, follow'}],
+        
         // Open Graph 信息
-        ['meta', {property: 'og:title', content: 'FreeLink 双向机器人'}],
-        ['meta', {property: 'og:description', content: '一个适合所有人的 Telegram 双向机器人'}],
-        ['meta', {property: 'og:image', content: '/logo.png'}],
+        ['meta', {property: 'og:title', content: 'FreeLink - 专业的Telegram双向机器人'}],
+        ['meta', {property: 'og:description', content: 'FreeLink是一个功能强大的Telegram双向机器人，支持自动回复、广播、付费聊天、键盘按钮等功能，帮助用户高效管理Telegram群组和私聊。'}],
+        ['meta', {property: 'og:image', content: 'https://blog.freelinktg.top/logo.png'}],
         ['meta', {property: 'og:url', content: 'https://blog.freelinktg.top'}],
         ['meta', {property: 'og:type', content: 'website'}],
         ['meta', {property: 'og:site_name', content: 'FreeLink'}],
+        ['meta', {property: 'og:locale', content: 'zh_CN'}],
+        
         // Twitter 信息（增强社交分享效果）
-        ['meta', { name: 'twitter:card', content: 'summary_large_image' }], // 使用大图片卡片样式
-        ['meta', { name: 'twitter:title', content: 'FreeLink 双向机器人' }],
-        ['meta', { name: 'twitter:description', content: 'FreeLink 双向机器人是一个适合所有人的 Telegram 双向机器人，支持高效、安全的消息交互体验。' }],
-        ['meta', { name: 'twitter:image', content: '/logo.png' }],
+        ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+        ['meta', { name: 'twitter:title', content: 'FreeLink - 专业的Telegram双向机器人' }],
+        ['meta', { name: 'twitter:description', content: 'FreeLink是一个功能强大的Telegram双向机器人，支持自动回复、广播、付费聊天、键盘按钮等功能，帮助用户高效管理Telegram群组和私聊。' }],
+        ['meta', { name: 'twitter:image', content: 'https://blog.freelinktg.top/logo.png' }],
 
+        // Google 验证和SEO
         ['meta', {name: 'google-site-verification', content: 'vMVG3iHWfafSxvz-oTbnSziwkZ1w4CJVRhNetmCZtgI'}],
+        ['meta', {name: 'google', content: 'notranslate'}],
+        
+        // 其他SEO优化
         ['link', {rel: 'icon', href: '/logo.png'}],
-        ['link', { rel: 'canonical', href: 'https://blog.freelinktg.top/' }]
+        ['link', { rel: 'canonical', href: 'https://blog.freelinktg.top/' }],
+        ['link', { rel: 'alternate', hreflang: 'zh', href: 'https://blog.freelinktg.top/' }],
+        ['meta', {name: 'theme-color', content: '#3eaf7c'}],
+        ['meta', {name: 'msapplication-TileColor', content: '#3eaf7c'}],
     ],
     locales: {
         root: {
