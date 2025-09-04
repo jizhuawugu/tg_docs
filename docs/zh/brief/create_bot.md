@@ -1,26 +1,71 @@
 # 创建 Telegram 机器人
 
-1. **打开 Telegram 应用**，搜索并打开 [@BotFather](https://t.me/BotFather)。
+本教程将指导您完成 Telegram 机器人的创建和配置，让您快速搭建起专业的客服系统。
 
-2. **开始对话**：发送 `/start` 命令。
+## 第一步：创建机器人
 
-3. **创建新机器人**：输入 `/newbot`，然后按照提示依次输入：
-    - **机器人名称**：可以是任意名称。
-    - **用户名**：必须以“bot”结尾（例如 `mynewbot`）。
+### 1. 打开 BotFather
+在 Telegram 中搜索并打开 [@BotFather](https://t.me/BotFather)，这是 Telegram 官方的机器人创建工具。
 
-4. **获取 API 令牌**：创建成功后，@BotFather 会生成一个独特的 API 令牌。**请复制并保存**该令牌，后续需要用它来访问机器人。
+### 2. 开始对话
+向 @BotFather 发送 `/start` 命令，开始创建流程。
 
-![img.png](/brief/api_token.png)
+### 3. 创建新机器人
+发送 `/newbot` 命令，然后按照提示依次输入：
 
-5. **打开[@xzkb_bot](https://t.me/xzkb_bot?start=s_blog)双向机器人，并点击“开始”** 
+- **机器人名称**：可以是任意名称，建议使用您的品牌或服务名称
+- **用户名**：必须以"bot"结尾（例如：`mycompany_bot`）
 
-6. **点击“新增机器人”**
-![img_2.png](/brief/add_bot.png)
-7. **向机器人发送您的 API 令牌**
+> 💡 **提示**：用户名一旦创建就无法修改，请谨慎选择。建议使用有意义的名称，便于用户记忆。
 
-8. **✅ 新增机器人成功**：代表您的机器人已成功创建。
-![img.png](/brief/add_success.png)
+### 4. 获取 API 令牌
+创建成功后，@BotFather 会生成一个独特的 API 令牌。**请立即复制并安全保存**该令牌，后续需要用它来配置机器人功能。
+
+![获取API令牌](/brief/api_token.png)
+
+> ⚠️ **重要提醒**：API令牌是访问机器人的唯一凭证，请妥善保管，不要泄露给他人。
+
+## 第二步：配置到 FreeLink
+
+### 5. 打开 FreeLink 机器人
+点击 [@xzkb_bot](https://t.me/xzkb_bot?start=s_blog) 打开 FreeLink 双向机器人，并点击"开始"按钮。
+
+### 6. 添加机器人
+点击"新增机器人"按钮，开始配置您的机器人。
+
+![添加机器人界面](/brief/add_bot.png)
+
+### 7. 输入 API 令牌
+将刚才从 @BotFather 获取的 API 令牌发送给 FreeLink 机器人。
+
+### 8. 验证成功
+看到"✅ 新增机器人成功"的提示，说明您的机器人已成功创建并配置完成。
+
+![添加成功提示](/brief/add_success.png)
+
+## 配置完成后的下一步
+
+机器人创建成功后，您可以：
+
+1. **设置自动回复** - 配置关键词自动回复功能
+2. **添加欢迎词** - 设置用户首次访问的欢迎消息
+3. **配置键盘按钮** - 添加快捷操作按钮
+4. **设置广播功能** - 配置群发消息功能
+5. **管理用户** - 查看和管理用户列表
 
 ## 视频教程
 
+如果您更喜欢视频教程，可以观看以下详细操作演示：
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajYJvW0ah8g" frameborder="0" allowfullscreen></iframe>
+
+## 常见问题
+
+### Q: 用户名已被占用怎么办？
+A: 尝试使用其他名称，可以添加数字或下划线，例如：`mycompany_bot_2024`
+
+### Q: API令牌丢失了怎么办？
+A: 重新联系 @BotFather，发送 `/mybots` 命令，选择您的机器人，然后点击"API Token"重新获取。
+
+### Q: 可以修改机器人名称吗？
+A: 可以修改显示名称，但用户名无法修改。使用 `/mybots` 命令可以修改机器人信息。
