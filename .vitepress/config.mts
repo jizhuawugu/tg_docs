@@ -16,7 +16,7 @@ export default defineConfig({
         ['meta', {name: 'description', content: 'FreeLink是一个功能强大的Telegram双向机器人，支持自动回复、广播、付费聊天、键盘按钮等功能，帮助用户高效管理Telegram群组和私聊。'}],
         ['meta', {name: 'robots', content: 'index, follow'}],
         ['meta', {name: 'googlebot', content: 'index, follow'}],
-        
+
         // Open Graph 信息
         ['meta', {property: 'og:title', content: 'FreeLink - 专业的Telegram双向机器人'}],
         ['meta', {property: 'og:description', content: 'FreeLink是一个功能强大的Telegram双向机器人，支持自动回复、广播、付费聊天、键盘按钮等功能，帮助用户高效管理Telegram群组和私聊。'}],
@@ -25,7 +25,7 @@ export default defineConfig({
         ['meta', {property: 'og:type', content: 'website'}],
         ['meta', {property: 'og:site_name', content: 'FreeLink'}],
         ['meta', {property: 'og:locale', content: 'zh_CN'}],
-        
+
         // Twitter 信息（增强社交分享效果）
         ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
         ['meta', { name: 'twitter:title', content: 'FreeLink - 专业的Telegram双向机器人' }],
@@ -33,9 +33,9 @@ export default defineConfig({
         ['meta', { name: 'twitter:image', content: 'https://blog.freelinktg.top/logo.png' }],
 
         // Google 验证和SEO
-        ['meta', {name: 'google-site-verification', content: 'vMVG3iHWfafSxvz-oTbnSziwkZ1w4CJVRhNetmCZtgI'}],
+        ['meta', {name: 'google-site-verification', content: 'uquK9CIwuDjaP-iI_emV2euJhtIZeaRqcH3yv58WRFg'}],
         ['meta', {name: 'google', content: 'notranslate'}],
-        
+
         // 其他SEO优化
         ['link', {rel: 'icon', href: '/logo.png'}],
         ['link', { rel: 'canonical', href: 'https://blog.freelinktg.top/' }],
